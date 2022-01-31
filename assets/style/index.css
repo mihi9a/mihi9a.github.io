@@ -44,55 +44,41 @@
 font-family: Futura;
 }
 
-
-.title-section {
-    color: black;
-    margin-top: 60px;
-}
-.parent {
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    padding:  5%;
-    /* align-items: center; */
-}
-.left-bar {
-    margin-right:40px
-}
-.right-bar {
-    flex-wrap: wrap;
-    display: flex;
-    flex-direction:row;
-    justify-content: center;
-    align-items: center;
-    padding: 5 60px;
-}
-.crop {
-    display: flex;
-    justify-content: center;
-    width: 600px;
-    height: 600px;
-    overflow: hidden;
-}
-
 .imagea {
-    width: auto;
-    height: 500px;
-    margin: -40px 0 0 0px;
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+    /* margin: -40px 0 0 0px; */
+    position: absolute;
+    right: 300px;
 }
-.title-section {
-    font-family: Futura;
-font-weight: 900;
-font-style: oblique;
-}
-
 .navbar {
     display: flex;
     flex-direction: row;
+    position: absolute;
+    right: 280px;
+    font-size: 12px;
+    font-family:'Courier New', Courier, monospace;
+    color: grey;
+}
+.navsection {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 300px;
 }
 .nav-item {
-    margin: 0 5px;
+    flex-direction: row;
+    padding: 30px;
+    letter-spacing: 3px;
 }
+.title-section {
+    font-family:"Futura";
+    font-weight: 300;
+    font-style: oblique;
+    color: #ae2605;
+
+}
+
 
 
 
