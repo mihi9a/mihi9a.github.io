@@ -1,0 +1,100 @@
+@font-face {
+    font-family:"Futura";
+    src: url("../font/FuturaPTCondExtraBold.otf");
+    font-weight: 900;
+}
+@font-face {
+    font-family:"Futura";
+    src: url("../font/FuturaPTBold.otf");
+    font-weight: 700;
+}
+@font-face {
+    font-family:"Futura";
+    src: url("../font/FuturaPTBook.otf");
+    font-weight: 400;
+}
+@font-face {
+    font-family:"Futura";
+    src: url("../font/FuturaPTExtraBold.otf");
+    font-weight: 800;
+}
+@font-face {
+    font-family:"Futura";
+    src: url("../font/FuturaPTHeavy.otf");
+    font-weight: 600;
+}
+@font-face {
+    font-family:"Futura";
+    src: url("../font/FuturaPTLight.otf");
+    font-weight: 300;
+}
+@font-face {
+    font-family:"Futura";
+    src: url("../font/FuturaPTMedium.otf");
+    font-weight: 500;
+}
+@font-face {
+    font-family:"Futura";
+    src: url("../font/FuturaPTCondExtraBoldOblique.otf");
+    font-weight: 900;
+    font-style: oblique;
+}
+
+ * {
+font-family: Futura;
+}
+
+
+.title-section {
+    color: black;
+    margin-top: 60px;
+}
+.parent {
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    padding:  5%;
+    /* align-items: center; */
+}
+.left-bar {
+    margin-right:40px
+}
+.right-bar {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    padding: 5 60px;
+}
+.crop {
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.imagea {
+    width: auto;
+    height: 500px;
+    margin: -40px 0 0 0px;
+}
+.title-section {
+    font-family: Futura;
+font-weight: 900;
+font-style: oblique;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+.nav-item {
+    margin: 0 5px;
+}
+
+
+
+
+
