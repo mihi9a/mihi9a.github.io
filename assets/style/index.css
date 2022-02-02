@@ -51,6 +51,7 @@ font-family: Futura;
     /* margin: -40px 0 0 0px; */
     position: absolute;
     right: 300px;
+    padding-bottom: 50px;
 }
 .navbar {
     display: flex;
@@ -77,6 +78,7 @@ font-family: Futura;
     font-style: oblique;
     color: #ae2605;
 }
+
 /* 
 body {
     background-color: #333;
