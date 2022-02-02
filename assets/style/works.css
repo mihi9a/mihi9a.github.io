@@ -1,10 +1,10 @@
-.image-grid {
+ /* .image-grid {
     display: block;
     width: auto;
     height: 350px;
     padding: 10px;
     margin: 30px;
-}
+} */
 .parent {
     display: flex;
     flex-direction:column;
@@ -19,4 +19,150 @@
     justify-content: center;
     align-items: center;
     padding: 5 60px;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 280px;
+    font-size: 12px;
+    font-family:'Courier New', Courier, monospace;
+    color: grey;
+}
+.navsection {
+    display: flex;
+    flex-direction: row;
+    padding: 30px 300px;
+}
+.nav-item {
+    flex-direction: row;
+    padding: 30px;
+    letter-spacing: 3px;
+}
+.title-section {
+    font-family:"Futura";
+    font-weight: 300;
+    font-style: oblique;
+    color: #ae2605;
+    display: flex;
+}
+
+.cover-works {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    gap: 50px 40px;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cover-works-child {
+    position: relative;
+    width: 300px;
+    height: 300px;
+}
+
+.painting-main,
+.painting-image-hover {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+.painting-image-hover {
+    background-color: white;
+    z-index: -1;
+    text-align:center;
+    font-size: 30pt;
+    vertical-align: baseline;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.painting-main:hover {
+    opacity: .5;
+    transition: all ease-in-out .1s;
+}
+
+.drawing-main,
+.drawing-image-hover {
+    width: 300px;
+    height: 300px;
+    position: absolute; 
+}
+.drawing-image-hover {
+    background-color: white;
+    z-index: -1;
+    text-align:center;
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drawing-main:hover {
+    opacity: .5;
+    transition: all ease-in-out .1s;
+}
+
+.mot-main,
+.mot-image-hover {
+    width: 300px;
+    height: 300px;
+    position: absolute; 
+}
+.mot-image-hover {
+    background-color: white;
+    z-index: -1;
+    text-align:center;
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mot-main:hover {
+    opacity: .5;
+    transition: all ease-in-out .1s;
+}
+
+.formula-main,
+.formula-image-hover {
+    width: 300px;
+    height: 300px;
+    position: absolute; 
+}
+.formula-image-hover {
+    background-color: white;
+    z-index: -1;
+    text-align:center;
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formula-main:hover {
+    opacity: .5;
+    transition: all ease-in-out .1s;
+}
+
+.aa-main,
+.aa-image-hover {
+    width: 300px;
+    height: 300px;
+    position: absolute; 
+}
+.aa-image-hover {
+    background-color: white;
+    z-index: -1;
+    text-align:center;
+    font-size: 30pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aa-main:hover {
+    opacity: .5;
+    transition: all ease-in-out .1s;
 }
